@@ -6,4 +6,4 @@ To compile the following code, follow the steps.
    command for installing nasm: sudo apt-get install nasm
 
 2) Command for compiling Assembly Code: nasm -f elf file_name.asm.
-3)  Then, gcc file_name.o -o file_name.
+3)  Then, gcc -m32 file_name.o -o file_name
